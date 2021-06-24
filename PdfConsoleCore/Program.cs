@@ -115,9 +115,7 @@ namespace PdfConsoleCore
 						? "Sed massa libero, semper a nisi nec"
 						: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 					isHeader ? fontHeader : fontNormal,
-					XBrushes.Black,
-					left,
-					top,
+					XBrushes.Black, left, top,
 					XStringFormats.TopLeft);
 			}
 
